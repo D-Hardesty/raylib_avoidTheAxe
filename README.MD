@@ -14,13 +14,13 @@ This C++ code implements a simple game using the Raylib library. The game featur
 - `SetTargetFPS(60)`: Set the frames per second to 60.
 - Enter the game loop using `while (!WindowShouldClose())`.
 
-## Circle Game Logic
+## Player Logic
 
 - Draw the circle based on its attributes using `DrawCircle`.
 - Update circle position based on user input (W, A, S, D) for movement.
 - Implement wrapping logic to keep the circle within the window boundaries.
 
-## Axe Game Logic
+## Enemy Logic
 
 - Draw the axe using `DrawRectangle`.
 - Update axe position and implement wrapping logic.
